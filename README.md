@@ -1,8 +1,14 @@
-```
-npm install
-npm run dev
+# hono-node-docker-demo
+
+## dev
+
+```sh
+$ yarn
+$ yarn dev
 ```
 
-```
-open http://localhost:3000
+## prod
+
+```sh
+$ make up
 ```
