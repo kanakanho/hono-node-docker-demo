@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "esbuild src/index.ts --bundle --minify --platform=node --outfile=dist/index.js",
+    "biome": "biome check --write ./src && biome format --write ./src"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.2.0",
+    "hono": "^3.8.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.8.6",
+    "esbuild": "^0.24.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
